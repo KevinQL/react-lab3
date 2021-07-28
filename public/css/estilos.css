@@ -1,0 +1,46 @@
+body{
+    padding: 0px 5%;
+    margin: 0px;
+    background-color: gray;
+}
+
+.container{
+    background: white;
+}
+
+/* Titulo */
+.centrar-texto{
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+/* banner */
+.content-img{
+    width: 100%;
+    overflow: hidden;  
+    border-radius: 5px;
+}
+
+.banner{    
+    max-width:100%;
+    height:auto;
+}
+
+/* Buscar */
+/* Productos */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin-top: 30px;
+}
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+/* Footer */
